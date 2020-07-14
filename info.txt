@@ -1,0 +1,55 @@
+
+A empresa
+Considere uma empresa bem estabelecida operando no setor de varejo de alimentos. 
+Atualmente eles têm centenas de milhares de clientes registrados e atendem a quase um milhão consumidores por ano. 
+Eles vendem produtos de 5 categorias principais: vinhos, produtos de carne rara, exóticos
+frutas, peixe especialmente preparado e produtos doces. Estes podem ainda ser divididos em ouro e produtos regulares. 
+Os clientes podem solicitar e adquirir produtos através de 3 canais de vendas: físico
+lojas, catálogos e site da empresa. Globalmente, a empresa teve uma receita sólida e uma saudável resultados nos últimos 3 anos, mas as perspectivas de crescimento dos lucros para os próximos 3 anos não são
+promissor... 
+Por esse motivo, várias iniciativas estratégicas estão sendo consideradas para inverter esse situação. Uma é melhorar o desempenho das atividades de marketing, com foco especial em
+campanhas de marketing.
+
+
+O Departamento de Marketing
+O departamento de marketing foi pressionado a gastar seu orçamento anual com mais sabedoria. 
+O CMO percebe a importância de ter uma abordagem mais quantitativa na tomada de decisões,
+por que uma pequena equipe de cientistas de dados foi contratada com um objetivo claro em mente: criar uma previsão
+modelo que apoiará iniciativas de marketing direto. Desejavelmente, o sucesso dessas atividades
+provar o valor da abordagem e convencer os mais céticos dentro da empresa.
+
+
+O objetivo
+O objetivo da equipe é construir um modelo preditivo que produza o maior lucro para o próxima campanha de marketing direto, programada para o próximo mês. 
+A nova campanha, sexta, visa vender um novo gadget para o banco de dados do cliente. Para construir o modelo, uma campanha piloto envolvendo 2.240 clientes foi realizada. Os clientes foram selecionados aleatoriamente e contatados por telefone em relação à aquisição do gadget. 
+Durante os meses seguintes, os clientes que compraram o a oferta foi devidamente rotulada. O custo total da campanha de amostra foi de 6.720MU e a receita gerado pelos clientes que aceitaram a oferta foi de 3.674MU. 
+Globalmente, a campanha teve um lucro de -3,046MU. A taxa de sucesso da campanha foi de 15%. 
+O objetivo da equipe é desenvolver um modelo que prediz o comportamento do cliente e aplicá-lo ao restante da base de clientes.
+Espero que o modelo permita que a empresa escolha os clientes com maior probabilidade de compre a oferta e deixe de fora os não respondentes, tornando a próxima campanha altamente rentável. Além disso, além de maximizar o lucro da campanha, a OCM está interessada em entendimento para estudar as características dos clientes dispostos a comprar o gadget.
+
+
+Os dados
+O conjunto de dados contém recursos sociodemográficos e firmográficos de cerca de 2.240 clientes que foram contatados. 
+Além disso, ele contém um sinalizador para os clientes que responderam à campanha, comprando o produto.
+
+
+Os principais objetivos são:
+1. Explore os dados - seja criativo e preste atenção aos detalhes. Você precisa fornecer a equipe de marketing uma melhor compreensão das características das respostas;
+2. Propor e descrever uma segmentação de clientes com base nos comportamentos dos clientes;
+3. Crie um modelo preditivo que permita à empresa maximizar o lucro do próximo Campanha de Marketing.
+4. O que mais você achar necessário.
+
+Entregas
+1. Exploração de Dados;
+2. Segmentação;
+3. Modelo de Classificação;
+4. Uma breve apresentação comercial.
+(também não limitado)
+Você pode usar qualquer linguagem de programação para esta tarefa (usamos python).
+A simplicidade e a consciência do que está acontecendo é preferida às implementações de complexos
+algoritmos que você não domina.
+
+
+
+Income - customer's yearly household income
+MntFishProducts - amount spent on fish products in the last 2 years
