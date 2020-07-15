@@ -53,3 +53,10 @@ algoritmos que você não domina.
 
 Income - customer's yearly household income
 MntFishProducts - amount spent on fish products in the last 2 years
+NumDealsPurchases - number of purchases made with discount	(número de compras feitas com desconto)
+NumWebPurchases -   number of purchases made using catalog	(número de compras feitas usando o catálogo)
+NumCatalogPurchases - number of purchases made directly in stores (número de compras feitas diretamente nas lojas)
+NumStorePurchases - number of purchases made through company's web site (número de compras feitas no site da empresa)
+NumWebVisitsMonth - number of visits to company's web site in the last month (número de visitas ao site da empresa no último mês)
+
+
