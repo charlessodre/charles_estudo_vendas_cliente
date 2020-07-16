@@ -62,7 +62,7 @@ Income 		   - Customer's yearly household income.               (Renda familiar 
 Kidhome 	   - Number of small children in customer's household. (Número de crianças pequenas na casa do cliente)
 Teenhome	   - Number of teenagers in customer's household.      (Número de adolescentes na casa do cliente)	
 Dt_Customer	   - Date of customer's enrollment with the company.   (Data de inscrição do cliente na empresa)
-Recency        - Number of days since the last purchase.            (Número de dias desde a última compra)
+Recency            - Number of days since the last purchase.            (Número de dias desde a última compra)
 MntWines	   - Amount spent on Wines products in the last 2 years.  (Montante gasto em Vinhos nos últimos 2 anos)
 MntFruits	   - Amount spent on Fruits products in the last 2 years. (Montante gasto em Frutas nos últimos 2 anos)
 MntMeatProducts  - Amount spent on Meat products in the last 2 years. (Montante gasto em produtos à base de carne nos últimos 2 anos)
@@ -82,4 +82,8 @@ AcceptedCmp5 - 1 if customer accepted the offer in the 5a campaign, 0 otherwise.
 Complain - 1 if customer complained in the last 2 years, 0 otherwise.            (1 se o cliente reclamou nos últimos 2 anos, 0 caso contrário)
 Response (Target) - 1 if customer accepted the offer in the last campaign.       (1 se o cliente aceitou a oferta na última campanha) 
 
+--------------------------------------------------------------------------------------
+
+# Com base no RFM Score podemos obseer que foram criados muitos segmentos. Vamos precisar agrupar eles para facilitar a análise.
+df_RFM.nunique()
 
