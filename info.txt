@@ -50,13 +50,36 @@ A simplicidade e a consciência do que está acontecendo é preferida às implem
 algoritmos que você não domina.
 
 
+-------------------------------------------------------------------------------------
 
-Income - customer's yearly household income (renda familiar anual do cliente)
-MntFishProducts - amount spent on fish products in the last 2 years (montante gasto em produtos de peixe nos últimos 2 anos)
-NumDealsPurchases - number of purchases made with discount	(número de compras feitas com desconto)
-NumWebPurchases -   number of purchases made using catalog	(número de compras feitas usando o catálogo)
-NumCatalogPurchases - number of purchases made directly in stores (número de compras feitas diretamente nas lojas)
-NumStorePurchases - number of purchases made through company's web site (número de compras feitas no site da empresa)
-NumWebVisitsMonth - number of visits to company's web site in the last month (número de visitas ao site da empresa no último mês)
+Descrição dos Atributos
+
+ID             - Customer identifier. 			(Identificador cliente)
+Year_Birth     - Year of birth of the Customer. (Ano de nascimento do cliente)
+Education      - Customer education level. 		(Nível de escolaridade do cliente)
+Marital_Status - Customer's marital status.     (Estado civil do cliente)
+Income 		   - Customer's yearly household income.               (Renda familiar anual do cliente)
+Kidhome 	   - Number of small children in customer's household. (Número de crianças pequenas na casa do cliente)
+Teenhome	   - Number of teenagers in customer's household.      (Número de adolescentes na casa do cliente)	
+Dt_Customer	   - Date of customer's enrollment with the company.   (Data de inscrição do cliente na empresa)
+Recency        - Number of days since the last purchase.            (Número de dias desde a última compra)
+MntWines	   - Amount spent on Wines products in the last 2 years.  (Montante gasto em Vinhos nos últimos 2 anos)
+MntFruits	   - Amount spent on Fruits products in the last 2 years. (Montante gasto em Frutas nos últimos 2 anos)
+MntMeatProducts  - Amount spent on Meat products in the last 2 years. (Montante gasto em produtos à base de carne nos últimos 2 anos)
+MntFishProducts  - Amount spent on Fish products in the last 2 years. (Montante gasto em produtos de peixe nos últimos 2 anos)
+MntSweetProducts - Amount spent on Sweet products in the last 2 years.(Montante gasto em doces nos últimos 2 anos)
+MntGoldProds	 - Amount spent on Gold products in the last 2 years. (Montante gasto em produtos Gold nos últimos 2 anos)
+NumDealsPurchases   - Number of purchases made with discount.              (Número de compras feitas com desconto)
+NumWebPurchases     - Number of purchases made through company's web site. (Número de compras feitas no site da empresa)
+NumCatalogPurchases - Number of purchases made using catalog.	           (Número de compras feitas usando o catálogo)
+NumStorePurchases   - Number of purchases made directly in stores.         (Número de compras feitas diretamente nas lojas)
+NumWebVisitsMonth   - Number of visits to company's web site in the last month.  (Número de visitas ao site da empresa no último mês)
+AcceptedCmp1 - 1 if customer accepted the offer in the 1a campaign, 0 otherwise. (1 se o cliente aceitou a oferta na 1a campanha, 0 caso contrário) 
+AcceptedCmp2 - 1 if customer accepted the offer in the 2a campaign, 0 otherwise. (1 se o cliente aceitou a oferta na 2a campanha, 0 caso contrário) 
+AcceptedCmp3 - 1 if customer accepted the offer in the 3a campaign, 0 otherwise. (1 se o cliente aceitou a oferta na 3a campanha, 0 caso contrário) 
+AcceptedCmp4 - 1 if customer accepted the offer in the 4a campaign, 0 otherwise. (1 se o cliente aceitou a oferta na 4a campanha, 0 caso contrário) 
+AcceptedCmp5 - 1 if customer accepted the offer in the 5a campaign, 0 otherwise. (1 se o cliente aceitou a oferta na 5a campanha, 0 caso contrário) 
+Complain - 1 if customer complained in the last 2 years, 0 otherwise.            (1 se o cliente reclamou nos últimos 2 anos, 0 caso contrário)
+Response (Target) - 1 if customer accepted the offer in the last campaign.       (1 se o cliente aceitou a oferta na última campanha) 
 
 
